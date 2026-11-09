@@ -58,9 +58,9 @@ jobs:
       - uses: android-actions/setup-android@v4
         with:
           packages: |
-            "platforms;android-35"
-            "build-tools;35.0.0"
-            "ndk;29.0.14206865"
+            platforms;android-35
+            build-tools;35.0.0
+            ndk;29.0.14206865
 
       - name: Set Android NDK path
         run: |
