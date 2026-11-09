@@ -55,7 +55,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-android-cargo-
 
-      - uses: android-actions/setup-android@v4.0.4
+      - uses: android-actions/setup-android@v4
         with:
           packages: |
             "platforms;android-35"
